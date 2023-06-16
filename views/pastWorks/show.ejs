@@ -1,18 +1,19 @@
 <%- include('../partials/nav.ejs')%>
 
+<a href="/pastWorks">Back</a>
 <div class="container text-center">
-  <h3><%=pastWorks.title%></h3>
-  <% if(pastWorks.id === 139608){ %>
-    <img src="<%=pastWorks.image%>" class="idImg">
+  <h3><%=pastWork.title%></h3>
+  <% if(pastWork.id === 139608){ %>
+    <img src="<%=pastWork.image%>" class="idImg">
   <% } else { %>
-    <img src="<%=pastWorks.image%>">
+    <img src="<%=pastWork.image%>">
   <% } %> 
   
   <h3>Description:</h3>
-  <p><%=pastWorks.description%></p>
-  <p>Release Date: <%=pastWorks.dateCompleted%></p>
+  <p><%=pastWork.description%></p>
+  <p>Release Date: <%=pastWork.dateCompleted%></p>
   <h3>Revenue:</h3>
-  <p><%=pastWorks.revenue%></p>
+  <p><%=pastWork.revenue%></p>
 </div>
 
 <%- include('../partials/footer.ejs')%>

@@ -14,7 +14,7 @@ function index(req, res) {
 
 function show(req, res) {
   res.render('pastWorks/show', {
-    pastWorks: PastWork.getOne(req.params.id),
+    pastWork: PastWork.getOne(req.params.id),
     title: '',
   });
 }
