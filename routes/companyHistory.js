@@ -2,8 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
+//route -> /companyHistory
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.render('companyHistory/index', {
+    title: 'Company History'
+  })
 });
 
 module.exports = router;

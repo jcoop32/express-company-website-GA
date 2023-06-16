@@ -1,0 +1,2 @@
+home page:
+partials nav bar for diffent pages
