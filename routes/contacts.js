@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
-//route -> /companyHistory
+//route -> /contacts
 router.get('/', function (req, res, next) {
+  //render page for contact index page
   res.render('contacts/index', {
     title: 'Contact',
   });

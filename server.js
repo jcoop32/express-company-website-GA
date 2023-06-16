@@ -4,6 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+
+//load routes
 var indexRouter = require('./routes/index');
 var companyHistoryRouter = require('./routes/companyHistory');
 var pastWorksRouter = require('./routes/pastWorks');
@@ -23,6 +25,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//middleware mounted
 app.use('/', indexRouter);
 app.use('/companyHistory', companyHistoryRouter);
 app.use('/pastWorks', pastWorksRouter);

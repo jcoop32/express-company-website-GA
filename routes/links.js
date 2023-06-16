@@ -3,6 +3,7 @@ var router = express.Router();
 
 const linkCtrl = require('../controllers/links');
 
-/* GET home page. */
+//GET /links, runs index func
 router.get('/', linkCtrl.index);
+
 module.exports = router;

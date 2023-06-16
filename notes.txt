@@ -3,4 +3,6 @@ partials nav bar for diffent pages
  companyHistory info:
 
 
-bonus- generate logo
+bonus: 
+- generate logo
+- add form to staff page for job request

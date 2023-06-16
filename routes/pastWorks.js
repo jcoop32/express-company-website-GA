@@ -2,9 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 var pastWorkCtrl = require('../controllers/pastWorks');
-/* GET users listing. */
-//route -> /pastWorks
 
+//route -> /pastWorks
 router.get('/', pastWorkCtrl.index);
 
 //GET /pastWorks/:id
