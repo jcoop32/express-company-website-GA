@@ -1,0 +1,16 @@
+<%- include('../partials/nav.ejs')%>
+
+<ul>
+  <% for(let i=0; i< staffs.length; i++){%>
+  <li>
+    <h3><%=staffs[i].jobTitle%></h3>
+    <p><%=staffs[i].name%></p>
+    <p><%=staffs[i].favoriteFood%></p>
+    <p><%=staffs[i].favoriteGame%></p>
+    <p><%=staffs[i].joinDate%></p>
+  </li>
+  <br />
+  <%}%>
+</ul>
+
+<%- include('../partials/footer')%>
