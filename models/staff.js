@@ -4,28 +4,28 @@ const staffs = [
     joinDate: '01/20/1990',
     favoriteFood: 'Pizza',
     favoriteGame: 'Valorant',
-    jobTitle: 'Co-Founder',
+    jobTitle: 'Co-Founder 🫛',
   },
   {
     name: 'Mamadou Magassa',
     joinDate: '01/20/1990',
     favoriteFood: 'Plantains',
     favoriteGame: 'Pokemon',
-    jobTitle: 'Co-Founder',
+    jobTitle: 'Co-Founder 🫛',
   },
   {
     name: 'Mark',
     joinDate: '03/23/1993',
     favoriteFood: 'Tacos',
     favoriteGame: 'Call of Duty: Black Ops',
-    jobTitle: 'Senior Production Manager',
+    jobTitle: 'Senior Production Manager ⏰',
   },
   {
     name: 'June',
     joinDate: '08/10/2008',
     favoriteFood: 'Ramen',
     favoriteGame: 'Fat Princess',
-    jobTitle: 'Engine Specialist',
+    jobTitle: 'Engine Specialist 🤖',
   },
 ];
 

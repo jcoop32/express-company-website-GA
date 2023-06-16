@@ -9,4 +9,13 @@ a {
 
 .workImg {
   width: 200px;
+  
+}
+.idImg{
+  width: 50%
+}
+
+.icons{
+  width: 40px;
+  height: 40px;
 }

@@ -2,9 +2,9 @@
 
 <% for(let i=0; i< links.length; i++){%>
 
-<div>
-  <img src="<%=links[i].icon%>" />
-  <a href="<%=links[i].address%>" target="_blank"><%=links[i].name%></a>
+<div class="container text-center pt-3 mt-5">
+  <img src="<%=links[i].icon%>" class="icons"/>
+  <a href="<%=links[i].address%>" target="_blank" class="mx-1"><%=links[i].name%></a>
 </div>
 
 <%}%> <%- include('../partials/footer')%>

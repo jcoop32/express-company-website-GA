@@ -2,8 +2,17 @@
 
 <div class="container text-center">
   <h3><%=pastWorks.title%></h3>
-  <img src="<%=pastWorks.image%>" />
+  <% if(pastWorks.id === 139608){ %>
+    <img src="<%=pastWorks.image%>" class="idImg">
+  <% } else { %>
+    <img src="<%=pastWorks.image%>">
+  <% } %> 
+  
+  <h3>Description:</h3>
   <p><%=pastWorks.description%></p>
+  <p>Release Date: <%=pastWorks.dateCompleted%></p>
+  <h3>Revenue:</h3>
+  <p><%=pastWorks.revenue%></p>
 </div>
 
 <%- include('../partials/footer.ejs')%>

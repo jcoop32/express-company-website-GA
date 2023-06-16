@@ -4,13 +4,9 @@
   <% pastWorks.forEach(function(p) { %>
 
   <a href="/pastWorks/<%=p.id%>">
-    <div class="d-flex container text-center">
-      <div>
+    <div class="container text-center">
         <img src="<%=p.image%>" class="workImg" />
-      </div>
-      <div>
         <p><%=p.title%></p>
-      </div>
     </div>
   </a>
 
