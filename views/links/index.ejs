@@ -1,0 +1,10 @@
+<%- include('../partials/nav.ejs')%> 
+
+<% for(let i=0; i< links.length; i++){%>
+
+<div>
+  <img src="<%=links[i].icon%>" />
+  <a href="<%=links[i].address%>" target="_blank"><%=links[i].name%></a>
+</div>
+
+<%}%> <%- include('../partials/footer')%>

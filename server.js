@@ -9,6 +9,7 @@ var companyHistoryRouter = require('./routes/companyHistory');
 var pastWorksRouter = require('./routes/pastWorks');
 var staffsRouter = require('./routes/staffs');
 var contactsRouter = require('./routes/contacts');
+var linksRouter = require('./routes/links');
 
 var app = express();
 
@@ -27,6 +28,7 @@ app.use('/companyHistory', companyHistoryRouter);
 app.use('/pastWorks', pastWorksRouter);
 app.use('/staffs', staffsRouter);
 app.use('/contacts', contactsRouter);
+app.use('/links', linksRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
