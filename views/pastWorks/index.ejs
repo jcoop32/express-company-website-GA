@@ -1,11 +1,20 @@
 <%- include('../partials/nav.ejs')%>
 
 <ul>
-    <% pastWorks.forEach(function(p) { %>
-      <li>
+  <% pastWorks.forEach(function(p) { %>
+
+  <a href="/pastWorks/<%=p.id%>">
+    <div class="d-flex container text-center">
+      <div>
+        <img src="<%=p.image%>" class="workImg" />
+      </div>
+      <div>
         <p><%=p.title%></p>
-      </li>
-      <% }); %>
+      </div>
+    </div>
+  </a>
+
+  <% }); %>
 </ul>
 
 <%- include('../partials/footer.ejs')%>
