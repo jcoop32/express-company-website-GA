@@ -1,0 +1,11 @@
+<%- include('../partials/nav.ejs')%>
+
+<ul>
+    <% pastWorks.forEach(function(p) { %>
+      <li>
+        <p><%=p.title%></p>
+      </li>
+      <% }); %>
+</ul>
+
+<%- include('../partials/footer.ejs')%>

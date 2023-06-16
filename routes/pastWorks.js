@@ -1,12 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
+var pastWorkCtrl = require('../controllers/pastWorks')
 /* GET users listing. */
 //route -> /pastWorks
-router.get('/', function (req, res, next) {
-  res.render('pastWorks/index', {
-    title: 'Past Work',
-  });
-});
+
+router.get('/', pastWorkCtrl.index)
 
 module.exports = router;
